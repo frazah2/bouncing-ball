@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(77, 77, 146);
+    border-radius: 50%;
+    margin-top: 10%;
+    position: relative;
+    animation-name: bol;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+@keyframes bol{
+    0%   {left:0px; top:300px;}
+    100% { left:0px; top:0px;}
+}
